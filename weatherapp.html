@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="source/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/8a66f1ff1f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container"></div>
+    <form span class="border border-2" id="weather-form">
+      <div class="search">
+        <input
+          type="text"
+          placeholder="Enter a city"
+          autofocus="on"
+          size="40"
+          id="search-city-input"
+        />
+        <button type="submit" class="btn btn-success btn-sm" id="search-button">
+          Search
+        </button>
+      </div>
+      <br />
+
+      <div class="row">
+        <div class="col-1">
+          <p class="sun">☀️</p>
+        </div>
+        <div class="col-5">
+          <ul>
+            <span class="today">
+              <li id="current-city">City</li>
+              <li id="current-day-time">Day, Time</li>
+              <li>64˚F</li></span
+            >
+          </ul>
+        </div>
+        <div class="col-6">
+          <ul>
+            <span class="info">
+              <li><small>Precipitation: 3%</small></li>
+              <li><small>U/V: 0 of 11</small></li>
+              <li><small>Humidity: 81%</small></li>
+              <li><small>Wind: SSE4mph</small></li></span
+            >
+          </ul>
+        </div>
+      </div>
+
+      <div class="tomorrow">
+        <div class="row">
+          <div class="col-2">Mon</div>
+          <div class="col-2">Tue</div>
+          <div class="col-2">Wed</div>
+          <div class="col-2">Thu</div>
+          <div class="col-2">Fri</div>
+          <div class="col-2">Sat</div>
+        </div>
+
+        <span class="emojis">
+          <div class="row">
+            <div class="col-2">☀️</div>
+            <div class="col-2">☀️</div>
+            <div class="col-2">⛅️</div>
+            <div class="col-2">⛅️</div>
+            <div class="col-2">⛅️</div>
+            <div class="col-2">🌤️</div>
+          </div>
+        </span>
+
+        <div class="row">
+          <div class="col-2">64˚F</div>
+          <div class="col-2">70˚F</div>
+          <div class="col-2">76˚F</div>
+          <div class="col-2">78˚F</div>
+          <div class="col-2">80˚F</div>
+          <div class="col-2">82˚F</div>
+        </div>
+      </div>
+    </form>
+    <script src="source/script.js"></script>
+  </body>
+</html>

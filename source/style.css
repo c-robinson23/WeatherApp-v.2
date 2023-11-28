@@ -1,0 +1,43 @@
+uL {
+  list-style: none;
+  line-height: normal;
+  text-align: left;
+}
+
+.container {
+  display: block;
+  margin: auto;
+}
+.search {
+  text-align: center;
+}
+.sun {
+  font-size: 60px;
+  text-align: center;
+  margin-block: -15px;
+}
+.today {
+  font-weight: 400;
+  font-size: larger;
+}
+.info {
+  text-align: left;
+  text-indent: 30px;
+}
+.tomorrow {
+  text-align: center;
+  font-weight: 250;
+}
+.emojis {
+  font-size: 30px;
+}
+.border.border-2 {
+  position: fixed;
+  text-align: center;
+  padding: 20px;
+  margin: 40px;
+  box-shadow: 0 0 4px #000000;
+}
+.btn.btn-success.btn-sm {
+  margin-bottom: 5px;
+}
